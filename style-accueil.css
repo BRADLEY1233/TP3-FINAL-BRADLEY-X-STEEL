@@ -1,0 +1,87 @@
+.titre-image {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    background-position: 0px, -100px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/Photo\ Principal\ Accueil.jpg');
+    background-size: cover;
+}
+
+.titre-image::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+h1 {
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 75px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:800;
+}
+
+.ski-image {
+    position: relative; 
+    height: 40vh;
+    width: 100%;
+    background-position: 0px,;
+    display: flex;
+    align-items: center;
+    background-image: url('images/photoLunetteSki.jpg');
+    background-size: cover;
+}
+
+.ski-image::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+h2 {
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 275px;
+    font-size: 70px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:600;
+}
+
+.cyclisme-image {
+    position: relative; 
+    height: 40vh;
+    width: 100%;
+    background-position: 0px,;
+    display: flex;
+    align-items: center;
+    background-image: url('images/photoLunetteCyclisme.jpg');
+    background-size: cover;
+}
+
+.cyclisme-image::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.image-produit {
+    justify-content: space-around;
+    width: 300px;
+}
