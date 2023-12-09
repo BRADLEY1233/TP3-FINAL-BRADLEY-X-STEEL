@@ -1,6 +1,6 @@
 .titre-image {
     background-color: black;
-    background-image: url('images/Photo\ Principal\ Accueil.jpg');
+    background-image: url('images/photo-accueil/PhotoPrincipalAccueil.jpg');
     background-position: 0px -100px;
     background-size: cover;
     color: white;
@@ -26,7 +26,7 @@ h1 {
     background-position: 0px,;
     display: flex;
     align-items: center;
-    background-image: url('images/photoLunetteSki.jpg');
+    background-image: url('images/photo-accueil/photoLunetteSki.jpg');
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ h2 {
     background-position: 0px,;
     display: flex;
     align-items: center;
-    background-image: url('images/photoLunetteCyclisme.jpg');
+    background-image: url('images/photo-accueil/photoLunetteCyclisme.jpg');
     background-size: cover;
 }
 
