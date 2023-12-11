@@ -1,17 +1,17 @@
 .titre-image {
-    background-color: black;
-    background-image: url('images/photo-accueil/PhotoPrincipalAccueil.jpg');
-    background-position: 0px -100px;
-    background-size: cover;
-    color: white;
     height: 100vh;
     width: 100%;
+    background-position: 0px, -100px;
+    display: flex;
+    align-items: center;
+    background-image: url('images/photo-accueil/PhotoPrincipalAccueil.jpg');
+    background-size: cover;
 }
 
 
 h1 {
     text-align: left;
-    padding-top: 500px;
+    padding-top: 250px;
     padding-left: 75px;
     font-size: 90px;
     color: white;
@@ -20,7 +20,6 @@ h1 {
 }
 
 .ski-image {
-    position: relative; 
     height: 40vh;
     width: 100%;
     background-position: 0px,;
@@ -30,15 +29,6 @@ h1 {
     background-size: cover;
 }
 
-.ski-image::before {    
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.50);
-}
 
 h2 {
     text-align: left;
@@ -51,7 +41,6 @@ h2 {
 }
 
 .cyclisme-image {
-    position: relative; 
     height: 40vh;
     width: 100%;
     background-position: 0px,;
@@ -61,18 +50,8 @@ h2 {
     background-size: cover;
 }
 
-.cyclisme-image::before {    
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.75);
-}
 /* produits */
-
-.image-produits {
+.produits {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,43 +73,53 @@ h2 {
     font-weight: 300;
     font-size: 1.2em;
 }
+
 /* bouton "TOUT VOIR" pour les produits */
 .bouton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     border-color: black;
     border-radius: 15% 15% 15% 15% / 50% 50% 50% 50% ;
     background-color:#67DBFF;
-    margin: 100px 800px 150px 800px;
-    padding: 2px 0px 2px 0px;
+    margin: 4% 42% 10% 42%;
+    padding: 30px 20px 30px 20px;
 }
 .bouton-text {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 40px;
     
 }
 
-
-
-/*
-.titre-image {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    background-position: 0px, -100px;
+nav {
     display: flex;
     align-items: center;
-    background-image: url('images/Photo\ Principal\ Accueil.jpg');
-    background-size: cover;
+    padding: 25px 0px 25px 0px;
+    background-color: #78c4fc;
+    position: fixed;
+    top: 0; left: 0; right: 0;
 }
 
-.titre-image::before {    
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.50);
+.nav-bouton {
+    padding: 0px 50px 0px 10px;
+    font-size: 30px;
+    font-weight:600;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-*/
+
+.nav-bouton-droite {
+    margin-left: auto;
+}
+
+.nav-bouton2 {
+    padding: 0px 50px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
