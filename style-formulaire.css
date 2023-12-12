@@ -1,6 +1,7 @@
 h1 {
     text-align: left;
-    padding-left: 75px;
+    margin-top: 150px;
+    margin-left: 75px;
     font-size: 60px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:600;
@@ -9,4 +10,95 @@ h1 {
 .formulaire {
     display: flex;
     flex-direction: row;
+    margin-left: 90px;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulaire-rangée {
+    display: flex;
+    flex-direction: row;
+}
+
+.label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.sujet {
+    padding-right: 165px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    font-size: 22px;
+    margin-bottom: 24px;
+    padding-right: 380px;
+}
+
+.bouton-envoyer {
+    margin-left: 616px;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    background-color: #78c4fc;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+.nav-bouton {
+    padding: 0px 50px 0px 10px;
+    font-size: 30px;
+    font-weight:600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-bouton-droite {
+    margin-left: auto;
+}
+
+.nav-bouton2 {
+    padding: 0px 50px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.abc {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.information {
+    margin-top: 180px;
+}
+
+.abc {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
 }

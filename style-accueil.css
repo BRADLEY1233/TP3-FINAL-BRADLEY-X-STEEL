@@ -1,3 +1,4 @@
+/* photo principal */
 .titre-image {
     height: 100vh;
     width: 100%;
@@ -7,7 +8,6 @@
     background-image: url('images/photo-accueil/PhotoPrincipalAccueil.jpg');
     background-size: cover;
 }
-
 
 h1 {
     text-align: left;
@@ -19,16 +19,16 @@ h1 {
     font-weight:800;
 }
 
+/* banner ski */
 .ski-image {
     height: 40vh;
     width: 100%;
-    background-position: 0px,;
+    background-position: 0px;
     display: flex;
     align-items: center;
     background-image: url('images/photo-accueil/photoLunetteSki.jpg');
     background-size: cover;
 }
-
 
 h2 {
     text-align: left;
@@ -40,10 +40,11 @@ h2 {
     font-weight:600;
 }
 
+/* banner cyclisme */
 .cyclisme-image {
     height: 40vh;
     width: 100%;
-    background-position: 0px,;
+    background-position: 0px;
     display: flex;
     align-items: center;
     background-image: url('images/photo-accueil/photoLunetteCyclisme.jpg');
@@ -62,12 +63,14 @@ h2 {
 
 }
 
+/* nom des produits */
 .nom-produits {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 600;
     font-size: 1.7em;
 }
 
+/* prix des produits */
 .prix-produits {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
@@ -85,6 +88,7 @@ h2 {
     margin: 4% 42% 10% 42%;
     padding: 30px 20px 30px 20px;
 }
+
 .bouton-text {
     display: flex;
     justify-content: center;
@@ -95,6 +99,7 @@ h2 {
     
 }
 
+/* bar de navigation */
 nav {
     display: flex;
     align-items: center;

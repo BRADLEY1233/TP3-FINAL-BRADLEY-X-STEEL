@@ -7,15 +7,103 @@
     <link href="style-formulaire.css" rel="stylesheet" >
 </head>
 <body>
+    <!-- Bar de navigation -->
+    <nav>
+        <a class="nav-bouton" href="page-accueil.html"><img src="images/logo.png" alt="Logo" height="39"></a>
+            <a class="nav-bouton"><img src="images/trois lignes.png" alt="Logo" height="42"></a>
+        <a class="nav-bouton" href="page-accueil.html">ACCUEIL</a>
+        <a class="nav-bouton" href="A PROPOS PAGE.html">À PROPOS</a>
+        <a class="nav-bouton" href="page-formulaire.html">NOUS CONTACTER</a>
+        <div class="nav-bouton-droite">
+            <a class="nav-bouton2"><img src="images/panier.png" alt="Logo" height="45"></a>
+            <a class="nav-bouton2"><img src="images/loupe.png" alt="Logo" height="42"></a>
+        </div>
+    </nav>
     <main>
-        <section>
+
+        <section class="formulaire1">
             <h1>Laisser nous un message</h1>
 
-            <label for="Prénom">Prénom</label></td>
-            <label for="Nom de famille">Nom</label></td><br>
+            <!-- Formulaire -->
+            <form>
+                <div class="formulaire-rangée">
+                    <!-- Prénom -->
+                    <div>
+                        <label class="label" for="Prénom">Prénom</label>
+                        <input class="formulaire" type="text" id="Prénom" name="Prénom" placeholder="Prénom" required>
+                    </div>
+                    <!-- Nom -->
+                    <div>
+                        <label class="label" for="Nom de famille">Nom</label>
+                        <input class="formulaire" type="text" id="Nom" name="Nom" placeholder="Nom" required>
+                    </div>
+                </div>
+                <div class="formulaire-rangée">
+                    <!-- Adresse électronique -->
+                    <div>
+                        <label class="label" for="Adresse électronique">Adresse électronique</label>
+                        <input class="formulaire" type="text" id="Adresse" name="Adresse électronique" placeholder="Adresse électronique" required>
+                    </div>
+                    <!-- Numéro de téléphone -->
+                    <div>
+                        <label class="label" for="Numéro de téléphone">Numéro de téléphone</label>
+                        <input class="formulaire" type="text" id="Téléphone" name="Numéro de téléphone" placeholder="Numéro de téléphone" required>
+                    </div> 
+                </div>
+                <div class="formulaire-rangée">
+                    <!-- Sujet du message -->
+                    <div>
+                        <label class="label" for="Sujet">Sujet</label>
+                        <select class="sujet formulaire" name-="Sujet" id="Sujet" required>
+                            <option value="Livraison">Livraison</option>
+                            <option value="Retour">Retour</option>
+                            <option value="Envoi">Envoi</option>
+                        </select>
+                    </div>
+                    <!-- Numéro de commande -->
+                    <div>
+                        <label class="label" for="Numéro de Commande">Numéro de Commande</label>
+                        <input class="formulaire" type="text" id="Commande" name="Numéro de Commande" placeholder="Numéro de Commande">
+                    </div>
+                </div>
+                <div class="formulaire-rangée">
+                    <div>
+                        <label class="label" for="Message">Message</label>
+                        <textarea class="formulaire" name="Message" id="Message" rows="10" required></textarea>
+                    </div>
+                </div>
 
-            <input class="formulaire" type="text" id="Prénom" name="Prénom" placeholder="Prénom"></td>
-            <input class="formulaire" type="text" id="Nom" name="Nom" placeholder="Nom"></td>
+                <!-- Bouton envoyer -->
+                <input class="bouton-envoyer" type="submit" value="Envoyer">
+            </form>
+        </section>
+
+        <!-- Section de l'information -->
+        <section class="information">
+            <div class="abc">
+                <img src="images/photo-formulaire/location.png" alt="location" width="50px" height="50px">
+                <p>10500 Ave de Bois-de-Boulogne, Montréal, Québec H4N 1L3</p>
+            </div>
+            <div class="abc">
+                <img src="images/photo-formulaire/telephone.png" alt="téléphone" width="50px" height="50px">
+                <p>514-332-3002</p>
+            </div>
+            <div class="abc">
+                <img src="images/photo-formulaire/calendrier.png" alt="calendrier" width="50px" height="50px">
+                <div>
+                    <p>Heure d’ouverture</p>
+                    <p>Lundi 9h-16h</p>
+                    <p>Mardi 9h-16h</p>
+                    <p>Mercredi 9h-16h</p>
+                    <p>Jeudi 9h-16h</p>
+                    <p>Vendredi 9h-16h</p>
+                    <p>Samedi 8h-14h</p>
+                    <p>Dimanche 8h-14h</p>
+                </div>
+            </div>
+            <div class="abc">
+                <img src="images/photo-formulaire/photoGoogleMaps.png" alt="photo du location" width="700" height="377">
+            </div>
         </section>
     </main>
 </body>
