@@ -1,0 +1,98 @@
+/* Bar de navigation */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+    background-color: #78c4fc;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+}
+
+.nav-bouton {
+    padding: 0px 50px 0px 10px;
+    font-size: 30px;
+    font-weight:600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-bouton-droite {
+    margin-left: auto;
+}
+
+.nav-bouton2 {
+    padding: 0px 50px 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* gif */
+.gif {  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 65px;
+    margin-bottom: 150px;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+/* video youtube */
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+/* produits */
+.produits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 100px;
+}
+
+/* nom des produits */
+.nom-produits {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+/* prix des produits */
+.prix-produits {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+/* produits recommendés */
+.produits-recommandation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}

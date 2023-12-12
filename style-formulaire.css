@@ -7,6 +7,7 @@ h1 {
     font-weight:600;
 }
 
+/* Formulaire */
 .formulaire {
     display: flex;
     flex-direction: row;
@@ -39,6 +40,7 @@ textarea {
     padding-right: 380px;
 }
 
+/* bonton envoyer */
 .bouton-envoyer {
     margin-left: 616px;
     font-size: 22px;
@@ -47,6 +49,7 @@ textarea {
     padding: 0px 15px 0px 15px;
 }
 
+/* Bar de navigation */
 nav {
     display: flex;
     align-items: center;
@@ -76,20 +79,17 @@ a {
     color: black;
 }
 
-.abc {
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
+/* Section avec les informations */
 .information {
     margin-top: 180px;
 }
 
-.abc {
+.info {
     display: flex;
     justify-content: flex-start;
     margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 p {

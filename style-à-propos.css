@@ -1,4 +1,4 @@
-/* bar de navigation */
+/* Bar de navigation */
 nav {
     display: flex;
     align-items: center;
@@ -28,6 +28,7 @@ a {
     color: black;
 }
 
+/* body */
 body{
     margin-top: 150px;
     background-color: #3d3d3d;
